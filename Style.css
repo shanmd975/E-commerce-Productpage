@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans&display=swap');
+
+* {
+  font-family: 'Albert Sans', sans-serif;
+}
+
+.img-fluid {
+  height: auto;
+  max-width: 100%;
+}
+hr {
+  border-color: #a9a9aa1a;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  display: relative;
+}
+
+.img-container-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.img-container-item {
+  cursor: pointer;
+}
+.color-container {
+  display: flex;
+  margin-bottom: 8rem;
+}
+.color {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 2rem;
+  transition: all 0.3 ease;
+  box-shadow: inset 0 0 10px #a9a9aa;
+}
+
+.color-black {
+  background-color: #41464c;
+}
+.color-blue {
+  background-color: #437691;
+}
+.color-red {
+  background-color: #c92434;
+}
+.color-green {
+  background-color: #439162;
+}
+
+.color-val {
+  text-transform: capitalize;
+}
+
+.cta-container {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  right: 0;
+  background-color: #bebdbd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.add-to-cart button {
+  cursor: pointer;
+  background: #ffffff;
+  border: 1px solid grey;
+  padding: 0rem 1rem;
+  margin: 1rem;
+  border-radius: 4px;
+}
+
+.add-to-cart button p {
+  font-size: 1.2rem;
+}
+.popup-modal {
+  background-color: #f15b95;
+  padding: 1rem;
+  color: #ffffff;
+  display: none;
+  position: fixed;
+  width: 98%;
+  left: 0;
+}
+.message {
+  text-align: center;
+}
+
+.quantity-container {
+  margin: 1rem;
+}
+.quantity-container button {
+  cursor: pointer;
+  background: #ffffff;
+  border: 1px solid grey;
+  margin: 1rem;
+  border-radius: 4px;
+  height: 4rem;
+  width: 4rem;
+}
