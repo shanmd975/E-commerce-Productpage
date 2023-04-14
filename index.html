@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="popup-modal">
+        <p class="message"></p>
+      </div>
+      <h1>Buy iPhone 13</h1>
+      <h3 style="text-align: right">
+        Cart Count: <span class="cart-count">0</span>
+      </h3>
+      <hr />
+      <div class="img-container">
+        <div class="img-container-viewport">
+          <img
+            src="./imgs/iphone-13-black-img-1.jpeg"
+            alt="iPhone 13"
+            class="img-fluid"
+          />
+        </div>
+        <div class="img-container-items">
+          <img
+            src="./imgs/iphone-13-black-img-1.jpeg"
+            alt="iPhone 13"
+            class="img-fluid img-container-item"
+          />
+
+          <img
+            src="./imgs/iphone-13-black-img-2.jpeg"
+            alt="iPhone 13"
+            class="img-fluid img-container-item"
+          />
+
+          <img
+            src="./imgs/iphone-13-black-img-3.jpeg"
+            alt="iPhone 13"
+            class="img-fluid img-container-item"
+          />
+          <img
+          src ="./imgs/iphone-13-green-img-1.jpeg"
+          alt="iPhone 13"
+          class="img-fluid img-container-item"
+        />
+        <img
+        src="./imgs/iphone-13-green-img-2.jpeg"
+        alt="iPhone 13"
+        class="img-fluid img-container-item"
+        />
+        <img
+        src="./imgs/iphone-13-green-img-3.jpeg"
+        alt="iPhone 13"
+        class="img-fluid img-container-item"
+        />
+        </div>
+      </div>
+      <hr />
+      <h2>Pick your favorite</h2>
+      <h3>Color - <span class="color-val">Black</span></h3>
+      <div class="color-container">
+        <div class="color color-black" onclick="selectColor('black')"></div>
+        <div class="color color-blue"  onclick="selectColor('blue')"></div>
+        <div class="color color-red"   onclick="selectColor('red')"></div>
+        <div class="color color-green" onclick="selectColor('green')"></div>
+      </div>
+      <hr />
+      <div class ="cta-container">
+        <div class="add-to-cart">
+          <button><p>Add to Cart</p></button>
+        </div>
+        <div class="quantity-container">
+          <button class="decrement"><p>-</p></button>
+          <span class="product-count">1</span>
+          <button class="increment"><p>+</p></button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
